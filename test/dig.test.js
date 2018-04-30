@@ -11,7 +11,7 @@ let a = {
   },
 }
 
-console.log(dig(a, "top.next.several.0.name"))
-console.log(dig(a, "top.next.other"))
-console.log(dig(a, "top.last.several.1.name"))
-console.log(dig(a, "top.a.b.c.d.e.f.g"))
+console.log(dig(a, "top.next.several.0.name")) // => "one"
+console.log(dig(a, "top.next.other")) // => { real: false }
+console.log(dig(a, "top.last.several.1.name")) // => undefined
+console.log(dig(a, "top.a.b.c.d.e.f.g")) // => undefined
