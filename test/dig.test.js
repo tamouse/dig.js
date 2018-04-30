@@ -14,3 +14,4 @@ let a = {
 console.log(dig(a, "top.next.several.0.name"))
 console.log(dig(a, "top.next.other"))
 console.log(dig(a, "top.last.several.1.name"))
+console.log(dig(a, "top.a.b.c.d.e.f.g"))
